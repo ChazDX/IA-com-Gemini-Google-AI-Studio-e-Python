@@ -1,0 +1,1 @@
+# IA-com-Gemini-Google-AI-Studio-e-Python
