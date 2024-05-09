@@ -1,0 +1,20 @@
+De:
+
+import google.generativeai as genai
+
+GOOGLE_API_KEY="INSIRA_SUA_API_KEY"
+genai.configure(api_key=GOOGLE_API_KEY)
+
+Para:
+
+import google.generativeai as genai
+from google.colab import userdata
+api_key = userdata.get('SECRET_KEY')
+genai.configure(api_key=api_key)
+
+OBS: A Palavra SECRET_KEY deve ser usado na aba secrets (símbolo da chave) no google COLAB
+e inserido no campo Nome, e no campo valor é onde é colocado a chave secreta do google AI Studio.
+Além disso deve estar habilitado a opção Acesso ao notebook
+
+ 
+
